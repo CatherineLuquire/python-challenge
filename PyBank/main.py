@@ -26,6 +26,7 @@ with open(csvpath, newline='') as csvfile:
     for row in csvreader:
         revenue.append(float(row[1]))
         date.append(row[0])
+        print(revenue)
         # row_dt = row[0]
         # row_n = int(row[1])
         # total_months = total_months + 1
